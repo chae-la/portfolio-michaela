@@ -1,0 +1,42 @@
+@use "../src/styles/color.scss" as *;
+@use "../src/styles/reset.scss" as *;
+
+.project-card {
+  padding: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 0.625rem 1.25rem rgba($black-color, 0.25);
+  &__img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+  &__language {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  &__description {
+    line-height: 1.3rem;
+    margin-top: 0.5rem;
+  }
+  &__button-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project-card{
+    &__img{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .project-card{
+    width: 50%;
+    &__img{
+      width: 100%;
+    }
+  }
+}

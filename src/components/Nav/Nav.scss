@@ -1,0 +1,13 @@
+@use "../../styles/color.scss" as *;
+@use "../../styles/reset.scss" as *;
+
+.bottom-navigation {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  
+    .Mui-selected .MuiSvgIcon-root {
+      color: $black-color;
+    }
+    .Mui-selected {
+      color: $accent-color;
+    }
+  }

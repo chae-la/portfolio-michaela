@@ -1,0 +1,65 @@
+@use "../src/styles/color.scss" as *;
+@use "../src/styles/reset.scss" as *;
+
+.header {
+  padding: 2rem;
+  overflow-y: hidden;
+  &__greeting {
+    font-size: 1.25rem;
+    background-color: $accent-color;
+    padding: 1.2rem;
+  }
+  &__title {
+    margin-top: 20px;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 3rem;
+    &__greeting {
+      font-size: 2rem;
+    }
+    &__title {
+      margin-top: 25px;
+      font-size: 6rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 4rem;
+    &__greeting {
+      font-size: 3rem;
+    }
+    &__title {
+      margin-top: 25px;
+      font-size: 7.25rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 4.5rem;
+    &__title {
+      margin-top: 25px;
+      font-size: 7.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .header {
+    padding: 4rem;
+    &__greeting {
+      font-size: 3.5rem;
+    }
+    &__title {
+      margin-top: 25px;
+      font-size: 11.5rem;
+    }
+  }
+}
