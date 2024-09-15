@@ -28,7 +28,7 @@ const Socials = () => {
        <h4 className="socials__container socials__container--span">Follow Me on Github</h4>
         </a>
 
-        <a href="https://docs.google.com/document/d/18PmCN0wj-VIg5UNdmUqYUMfVnmI91JZiVrjcM3qrKBI/edit?usp=sharing">
+        <a href="https://docs.google.com/presentation/d/1Tpod1ziur2qtq0VXz2-_4lGWgr-S3mMXPL75jmvw6fo/edit?usp=sharing">
           <img
             className="socials__container socials__container--img"
             src={cvIcon}
