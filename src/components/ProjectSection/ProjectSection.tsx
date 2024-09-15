@@ -7,10 +7,6 @@ import clientProject from "../../assets/clientProject.png";
 import hangman from "../../assets/hangman-screenshot.png";
 import cardGame from "../../assets/card-game-screenshot.png";
 import weatherApp from "../../assets/Weather-app.png";
-import AOS from "aos";
-import "aos/dist/aos.css"
-
-
 
 const ProjectSection = () => {
 
