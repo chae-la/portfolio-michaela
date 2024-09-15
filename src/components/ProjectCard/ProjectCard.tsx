@@ -7,7 +7,7 @@ type ProjectCardProps = {
     title: string;
     description : string;
     codeLink: string;
-    webLink: string;
+    webLink?: string;
 }
 
 const ProjectCard = ({img, language, title, description, codeLink, webLink} : ProjectCardProps) => {

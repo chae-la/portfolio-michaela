@@ -1,3 +1,7 @@
 @use "../src/styles/color.scss" as *;
 @use "../src/styles/reset.scss" as *;
 
+.app{
+    background-color: $off-white-color;
+    height: 100%;
+}

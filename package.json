@@ -1,5 +1,5 @@
 {
-  "homepage": "https://chae-la.github.io/michaela-portfolio",
+  "homepage": "https://chae-la.github.io/portfolio-michaela",
   "author": "Michaela",
   "name": "react-portfolio",
   "private": true,
@@ -18,11 +18,13 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
+    "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",

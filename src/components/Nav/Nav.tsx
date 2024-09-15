@@ -8,54 +8,52 @@ import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-
 type NavProps = {
   navActionIndex: number;
 };
 
 const Nav = ({ navActionIndex = 0 }: NavProps) => {
   const [value, setValue] = useState(navActionIndex);
+
   return (
     <div className="nav">
       <Box
         sx={{
           width: "100%",
-          position: "fixed",
+          position: "fixed",       
           bottom: 0,
+          left: 0,               
+          right: 0,               
+          backgroundColor: '#ffffff', 
+          zIndex: 1000,           
+          boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.3)", 
         }}
       >
         <BottomNavigation
-          className="bottom-navigation"
-          showLabels
           value={value}
           onChange={(_, newValue) => {
             setValue(newValue);
           }}
         >
           <BottomNavigationAction
-            className="bottom-navigation__item"
             icon={<HomeIcon />}
             label="Home"
             component={Link}
-            to="/"
+            to="/portfolio-michaela"
           />
           <BottomNavigationAction
-            className="bottom-navigation__item"
             label="About"
             icon={<PersonIcon />}
             component={Link}
             to="/about"
           />
           <BottomNavigationAction
-            className="bottom-navigation__item"
             label="Projects"
             icon={<FolderIcon />}
             component={Link}
             to="/projects"
           />
-
           <BottomNavigationAction
-            className="bottom-navigation__item"
             label="Socials"
             icon={<PhoneIphoneIcon />}
             component={Link}
@@ -66,4 +64,5 @@ const Nav = ({ navActionIndex = 0 }: NavProps) => {
     </div>
   );
 };
+
 export default Nav;

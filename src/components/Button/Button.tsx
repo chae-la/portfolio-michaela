@@ -2,7 +2,7 @@ import "./Button.scss"
 
 type ButtonProps ={
     label: string;
-    link: string;
+    link?: string;
 }
 
 const Button = ({label, link}: ButtonProps) => {

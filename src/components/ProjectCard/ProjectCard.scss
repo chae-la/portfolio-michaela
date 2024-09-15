@@ -5,9 +5,12 @@
   padding: 1rem;
   margin-bottom: 3rem;
   box-shadow: 0 0.625rem 1.25rem rgba($black-color, 0.25);
+  border-radius: 1rem;
+  z-index: 1;
   &__img {
     width: 100%;
     margin-bottom: 0.8rem;
+    z-index: 1;
   }
   &__language {
     font-size: 0.8rem;
@@ -24,19 +27,18 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .project-card{
+    width: 45%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .project-card{
+    width: 30%;
     &__img{
       width: 100%;
     }
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .project-card{
-    width: 50%;
-    &__img{
-      width: 100%;
-    }
-  }
-}

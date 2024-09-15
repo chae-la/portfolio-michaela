@@ -23,10 +23,18 @@
     &__container{
       display: flex;
       flex-wrap: wrap;
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
-      
+      justify-content: space-between;
     }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project__container{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -38,10 +46,9 @@
       width: 100%;
     }
     &__container{
-      display: flex;
       flex-wrap: wrap;
-      width: 90%;
-      margin: 0 auto;
+      width: 100%;
+
     }
   }
 }

@@ -6,7 +6,7 @@
   &__title {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     background-color: $accent-color;
     padding: 0.7rem 0;
   }
@@ -25,7 +25,7 @@
       border-radius: 0.5rem;
       filter: invert(1) hue-rotate(180deg);
       &:hover{
-        width: 7rem;
+        width: 5.5rem;
         filter: unset;
       }
     }
@@ -34,5 +34,14 @@
       margin-top: 1rem;
     }
     
+  }
+}
+
+@media screen and (min-width:768px) {
+  .socials{
+&__container{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
   }
 }
