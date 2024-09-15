@@ -5,7 +5,6 @@ import ProjectSection from "./components/ProjectSection/ProjectSection";
 import Socials from "./components/Socials/Socials";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import About from "./components/About/About";
-import React from "react";
 
 const App = () => {
   return (
